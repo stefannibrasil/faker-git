@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.summary     = "Generate fake Git values such as branch names"
   s.description = "Exploring adding external generators to faker ruby"
   s.authors     = ["Stefanni Brasil"]
-  s.files       = ["lib/git.rb"]
   s.license       = "MIT"
   s.homepage    = 'https://github.com/stefannibrasil/faker-git'
 
