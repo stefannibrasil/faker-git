@@ -23,10 +23,3 @@ module Faker
     end
   end
 end
-
-# things for later
-
-# what if the person only wants to add one new method to an existing generator? is that possible? need to explore it later
-
-# to make this more realistic, create a YAMl file to fetch values randomly using `fetch` from Faker
-# need to test how will locales work with plugins/external generators

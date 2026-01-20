@@ -1,0 +1,10 @@
+pt-BR:
+  faker:
+    git:
+      branch:
+        - principal
+        - desenvolvimento
+        - feature/autenticacao
+        - feature/integracao-pagamento
+        - release/v1.2.0
+  
