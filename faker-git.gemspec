@@ -2,11 +2,9 @@
 
 $LOAD_PATH.push File.expand_path('lib', __dir__)
 
-require 'faker/git/version'
-
 Gem::Specification.new do |s|
   s.name        = "faker-git"
-  s.version     = Faker::Git::VERSION
+  s.version     = "0.0.1"
   s.platform    = Gem::Platform::RUBY
   s.summary     = "Generate fake Git values such as branch names"
   s.description = "Exploring adding external generators to faker ruby"

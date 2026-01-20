@@ -1,0 +1,37 @@
+GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 7e2a02a37bde628f94f18946b8eed87b25d5f95c
+  branch: sb-ta/lazy-load-experiment
+  specs:
+    faker (3.5.3)
+      i18n (>= 1.8.11, < 2)
+
+PATH
+  remote: .
+  specs:
+    faker-git (0.0.1)
+      faker
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.3.6)
+    i18n (1.14.8)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  faker!
+  faker-git!
+
+CHECKSUMS
+  concurrent-ruby (1.3.6) sha256=6b56837e1e7e5292f9864f34b69c5a2cbc75c0cf5338f1ce9903d10fa762d5ab
+  faker (3.5.3)
+  faker-git (0.0.1)
+  i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
+
+BUNDLED WITH
+  4.0.3
