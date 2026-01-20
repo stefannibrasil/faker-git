@@ -1,0 +1,11 @@
+en:
+  faker:
+    git:
+      branch:
+        - main
+        - develop
+        - feature/user-authentication
+        - feature/payment-integration
+        - bugfix/login-redirect
+        - hotfix/security-patch
+        - release/v1.2.0
