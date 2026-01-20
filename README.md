@@ -19,7 +19,6 @@ gem install faker-git    #Manual
 ## Usage
 
 ```ruby
-require 'faker'
 require 'faker-git'
 
 Faker::Git.branch => 'develop'
