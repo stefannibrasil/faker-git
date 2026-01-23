@@ -2,7 +2,7 @@
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
 
-require "faker_git"
+require "faker-git"
 require 'test/unit'
 
 class TestFakerGit < Test::Unit::TestCase
@@ -23,7 +23,7 @@ class TestFakerGitWithLocale < Test::Unit::TestCase
   end
 
   def test_branch
-    assert_equal(/\w+/, @tester.branch)
+    assert_match(/\w+/, @tester.branch)
   end
 
   def teardown
